@@ -1,0 +1,53 @@
+﻿<Window x:Class="Iks_oks_game.GameRezim1Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Iks_oks_game"
+        mc:Ignorable="d"
+        Title="GameRezim1Window" Height="450" Width="617" WindowStartupLocation="CenterScreen" WindowStyle="None" 
+  
+    ResizeMode="NoResize">
+    <Grid HorizontalAlignment="Center" Width="617">
+        <Grid.Background>
+            <ImageBrush ImageSource="/img.jpg"/>
+        </Grid.Background>
+
+        <Button x:Name="button1" Content="" FontFamily="Elephant" Style="{StaticResource MyDisabledButtonStyle}" BorderThickness="1.5" BorderBrush="#FF7D7C84" Foreground="Red" Background="Black" HorizontalAlignment="Left" Margin="174,96,0,0" VerticalAlignment="Top" Width="90" Height="90" FontSize="25" Click="button1_Click"/>
+        <Button x:Name="button2" Content="" FontFamily="Elephant" Style="{StaticResource MyDisabledButtonStyle}" BorderThickness="1.5" BorderBrush="#FF7D7C84" Foreground="Red" Background="Black" HorizontalAlignment="Center" Margin="0,96,0,0" VerticalAlignment="Top" Width="90" Height="90" FontSize="25" Click="button2_Click"/>
+        <Button x:Name="button3" Content="" FontFamily="Elephant" Style="{StaticResource MyDisabledButtonStyle}" BorderThickness="1.5" BorderBrush="#FF7D7C84" Foreground="Red" Background="Black" HorizontalAlignment="Left" Margin="354,96,0,0" VerticalAlignment="Top" Width="90" Height="90" FontSize="25" Click="button3_Click" RenderTransformOrigin="0.245,0.502"/>
+        <Button x:Name="button4" Content="" FontFamily="Elephant" Style="{StaticResource MyDisabledButtonStyle}" BorderThickness="1.5" BorderBrush="#FF7D7C84" Foreground="Red" Background="Black" HorizontalAlignment="Left" Margin="174,186,0,0" VerticalAlignment="Top" Width="90" Height="90" FontSize="25" Click="button4_Click"/>
+        <Button x:Name="button5" Content="" FontFamily="Elephant" Style="{StaticResource MyDisabledButtonStyle}" BorderThickness="1.5" BorderBrush="#FF7D7C84" Foreground="Red" Background="Black" HorizontalAlignment="Center" Margin="0,186,0,0" VerticalAlignment="Top" Width="90" Height="90" FontSize="25" Click="button5_Click"/>
+        <Button x:Name="button6" Content="" FontFamily="Elephant" Style="{StaticResource MyDisabledButtonStyle}" BorderThickness="1.5" BorderBrush="#FF7D7C84" Foreground="Red" Background="Black" HorizontalAlignment="Left" Margin="354,186,0,0" VerticalAlignment="Top" Width="90" Height="90" FontSize="25" Click="Button_Click" />
+        <Button x:Name="button7" Content="" FontFamily="Elephant" Style="{StaticResource MyDisabledButtonStyle}" BorderThickness="1.5" BorderBrush="#FF7D7C84" Foreground="Red" Background="Black" HorizontalAlignment="Left" Margin="174,276,0,0" VerticalAlignment="Top" Width="90" Height="90" FontSize="25" Click="button7_Click"/>
+        <Button x:Name="button8" Content="" FontFamily="Elephant" Style="{StaticResource MyDisabledButtonStyle}" BorderThickness="1.5" BorderBrush="#FF7D7C84" Foreground="Red" Background="Black" HorizontalAlignment="Center" Margin="0,276,0,0" VerticalAlignment="Top" Width="90" Height="90" FontSize="25" Click="button8_Click"/>
+        <Button x:Name="button9" Content="" FontFamily="Elephant" Style="{StaticResource MyDisabledButtonStyle}" BorderThickness="1.5" BorderBrush="#FF7D7C84" Foreground="Red" Background="Black" HorizontalAlignment="Left" Margin="354,276,0,0" VerticalAlignment="Top" Width="90" Height="90" FontSize="25" Click="button9_Click"/>
+        <Border BorderBrush="Black"  Background="LightGray" BorderThickness="1" Margin="0,0,0,403"/>
+        <Button Content="Nova igra" Background="LightGray" Foreground="#FFFF4A00" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Height="47" FontSize="16" Click="NovaIgra_Button_Click_1" FontFamily="Arial Black" />
+        <Button Content="Pomoć" Background="LightGray" Foreground="#FFFF4A00" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="124" Height="47" FontSize="16" Margin="124,0,0,0" Click="pomoc_Click" FontFamily="Arial Black" />
+        <Button Content="Izađi"  Background="LightGray" Foreground="#FFFF4A00" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Height="47" FontSize="16" Margin="372,0,0,0" FontFamily="Arial Black" RenderTransformOrigin="0.367,0.668" Click="izadji_Button_Click" />
+        <Button Content="Rezultati" Background="LightGray" Foreground="#FFFF4A00"  HorizontalAlignment="Left" Margin="248,0,0,0" VerticalAlignment="Top" Click="rezultatiButton_Click" Width="124" Height="47" FontSize="16" FontFamily="Arial Black" x:Name="rezultatiButton"/>
+
+        <TextBox x:Name="player1TextBox" FontFamily="Arial Black" Foreground="DarkSlateGray" BorderThickness="0" BorderBrush="WhiteSmoke" Background="#FFF9F9F9" HorizontalAlignment="Left" Margin="10,362,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" FontSize="16"/>
+        <TextBox x:Name="player2TextBox" FontFamily="Arial Black" Foreground="DarkSlateGray" BorderThickness="0" BorderBrush="WhiteSmoke" Background="WhiteSmoke" HorizontalAlignment="Left" Margin="460,362,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" FontSize="16"/>
+
+
+
+
+        <Button Style="{StaticResource CActionButtons}" HorizontalAlignment="Right" Margin="10 0" ToolTip="Play" x:Name="Play" Click="Play_Click">
+            <StackPanel Margin="-5">
+                <materialDesign:PackIcon Kind="AudioOff" Width="20" Height="20" />
+            </StackPanel>
+        </Button>
+
+
+        <Button Style="{StaticResource CActionButtons }" HorizontalAlignment="Right" Margin="10 0" ToolTip="Stop" x:Name="Stop" Click="Stop_Click">
+            <StackPanel Margin="-5">
+                <materialDesign:PackIcon Kind="Audio" Width="20" Height="20" />
+            </StackPanel>
+        </Button>
+
+    </Grid>
+
+</Window>

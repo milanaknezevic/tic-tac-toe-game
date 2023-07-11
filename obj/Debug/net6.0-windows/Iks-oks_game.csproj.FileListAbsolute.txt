@@ -1,0 +1,2 @@
+C:\Users\Korisnik\source\repos\Iks-oks_game\bin\Debug\net6.0-windows\Iks-oks_game.exe
+C:\Users\Korisnik\source\repos\Iks-oks_game\bin\Debug\net6.0-windows\Iks-oks_game.dll

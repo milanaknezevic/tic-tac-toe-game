@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Iks_oks_game</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img.jpg" />
+    <None Remove="istockphoto-1289153517-170667a.jpg" />
+    <None Remove="window1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img.jpg" />
+    <Resource Include="istockphoto-1289153517-170667a.jpg" />
+    <Resource Include="window1.jpg" />
+  </ItemGroup>
+
+</Project>

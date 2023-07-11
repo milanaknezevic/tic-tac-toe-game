@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zxKY+8lpo0wq9l5lEhuJQ6Ssdv5z6Nifmk6QIsD212zHrmnP18WH84xRiyUEPn0wtcI7s17SLqzxvvqcI80iWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Korisnik\\source\\repos\\Iks-oks_game\\Iks-oks_game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Korisnik\\.nuget\\packages\\materialdesigncolors\\2.0.5\\materialdesigncolors.2.0.5.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\materialdesignthemes\\4.4.0\\materialdesignthemes.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
